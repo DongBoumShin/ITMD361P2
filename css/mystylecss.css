@@ -1,0 +1,69 @@
+/*Shared properties:
+    1.background&body
+    2.header&navigation list
+    3.footer&reference links
+    4.h1*/
+
+header{
+  float: right;
+}
+header ul{
+  display: inline;
+  float: inherit;
+  height: 17pt;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav{
+  background-color: aliceblue;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+header ul li{
+  position: relative;
+  left: 0;
+  display: inline-block;
+  font-size: 15pt;
+  font-variant-caps: petite-caps;
+  background-color: beige;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header ul li a{
+  text-decoration-line:none;
+  color: darkblue;
+}
+header ul li a:hover{
+  text-decoration-line: underline;
+  font-weight: 600;
+  color: darkgreen;
+}
+header ul li:hover{
+  background-color: darksalmon;
+}
+
+h1{
+  position: relative;
+  top: 50px;
+  width: 600px;
+  left:20%;
+  text-align: center;
+}
+
+section#link{
+  background-color: lightpink;
+}
+footer{
+  color: violet;
+}
+
+body  {
+  background-image: url("../ext_content/geoshapes.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+}
