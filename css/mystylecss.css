@@ -45,25 +45,48 @@ header ul li a:hover{
 header ul li:hover{
   background-color: darksalmon;
 }
-
-h1{
+/*I cannot get this h1 to be not responsive, and also I can't get this h1 to be centred.*/h1{
   position: relative;
-  top: 50px;
-  width: 600px;
-  left:20%;
+  max-width: 600px;
   text-align: center;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
-
 section#link{
   background-color: lightpink;
+  text-align: center;
+  width: 50%;
+  left: 25%;
+  position: relative;
+  border-color: red;
+  border-width: medium;
+  margin-top: 50px;
 }
 footer{
   color: violet;
+  text-align: center;
+  width: 100%;
+  border-color: red;
+  border-width: medium;
 }
-
 body  {
   background-image: url("../ext_content/geoshapes.png");
   background-repeat: repeat-y;
   background-position: center;
   background-size: cover;
+}
+
+div#content_fluid{
+
+}
+
+div#content_fixedpx{
+  position: relative;
+  top:50px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div#content_fixedpx img{
+  width: inherit;
 }
