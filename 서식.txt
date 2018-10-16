@@ -17,3 +17,4 @@ GitHub repository must contain only the files and commits from this project; you
 
 질문:
 1. 깃헙에서 디렉토리랑 파일 삭제 어케함요?
+2. 이 씨발놈의 h1좀
