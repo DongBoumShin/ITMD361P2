@@ -45,14 +45,21 @@ header ul li a:hover{
 header ul li:hover{
   background-color: darksalmon;
 }
-h1{
+div.heading1{
+  min-width: 600px;
+  width: 100%;
   position: relative;
+}
+div.heading1 div{
   width: 600px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
-}/*I cannot get this h1 to be not responsive, and also I can't get this h1 to be centred.
-To be frank, h1 is too buggy right now.*/
+}
+h1{
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+}/*h1 bug fixed*/
 section#link{
   background-color: lightpink;
   text-align: center;
