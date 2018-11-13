@@ -18,9 +18,9 @@ header ul{
   margin-bottom: 0;
 }
 header nav{
+  display: flex;
   background-color: aliceblue;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 header ul li{
   position: relative;
