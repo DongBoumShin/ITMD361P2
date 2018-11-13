@@ -149,6 +149,24 @@ div#content_fluid div.wh2{
   margin-bottom: 10px;
   margin-right:auto;
 }/*Cant get these to have same height and be automatic, so fixed height, but now website breaks if sqeezed too hard.*/
+/*so I added media query for this only!*/
+@media only screen and (max-width:700px)
+{
+  div#content_fluid div.wh1{
+    float: none;
+    height: auto;
+    width: inherit;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div#content_fluid div.wh2{
+    float: none;
+    height: auto;
+    width: inherit;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 /*--differentpage--*/
 /*index start*/
 div#content_fluid img{
