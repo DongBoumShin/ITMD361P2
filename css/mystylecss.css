@@ -9,18 +9,19 @@ header{
   width: 100%;
 }
 header ul{
-  display: inline;
+  display: inline-block;
   float: inherit;
-  height: 17pt;
-  width: 300px;
+  height: auto;
+  width: auto;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 header nav{
   background-color: aliceblue;
-  margin-left: 0;
-  margin-right: 0;
-  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 header ul li{
   position: relative;
